@@ -11,5 +11,13 @@
         ],
         "persistent": true
     },
-    "version": "1.0"
+    "version": "1.0",
+    "commands": {
+        "separator": {
+            "suggested_key": {
+                "default": "Alt+Shift+S"
+            },
+            "description": "Create tab separator."
+        }
+    }
 }
