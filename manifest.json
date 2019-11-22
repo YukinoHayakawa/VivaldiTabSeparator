@@ -1,11 +1,15 @@
 {
-  "name": "Top Sites",
-  "version": "1.2",
-  "description": "Shows the top sites in a browser action",
-  "permissions": ["topSites"],
-  "browser_action": {
-    "default_icon": "icon.png",
-    "default_popup": "popup.html"
-  },
-  "manifest_version": 2
+    "description": "Open a tab separator",
+    "manifest_version": 2,
+    "name": "Tab Separator",
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    },
+    "version": "1.0"
 }
